@@ -22,7 +22,7 @@ export BUILD_CROSS_COMPILE=/home/arianoxx-dev/aarch64-linux-android-4.9/bin/aarc
 export CROSS_COMPILE=$BUILD_CROSS_COMPILE
 export BUILD_JOB_NUMBER=`grep processor /proc/cpuinfo|wc -l`
 
-export PLATFORM_VERSION=8.0.0
+export PLATFORM_VERSION=9.0.0
 
 RDIR=$(pwd)
 OUTDIR=$RDIR/arch/$ARCH/boot
